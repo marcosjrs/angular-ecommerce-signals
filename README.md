@@ -6,6 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 [Instalación de Tailwind](https://tailwindcss.com/docs/guides/angular)
 
 
+```bash
+ng g c layout/header
+ng g c features/products
+ng g c features/products/details
+ng g c features/products/card
+ng g c features/checkout
+ng g environments
+```
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
