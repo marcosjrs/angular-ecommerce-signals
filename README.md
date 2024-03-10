@@ -8,6 +8,7 @@ Proyecto con fines educativos, en desarrollo...
 
 [Tailblocks: Ejemplos de templates](https://tailblocks.cc/)
 
+[Instalación de ngrx/signals](https://ngrx.io/guide/signals/install)
 
 ```bash
 ng g c layout/header
