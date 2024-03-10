@@ -10,8 +10,8 @@ import { ProductsService } from '@api/products.service';
    <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
-          @for (product of products(); track $index) {
-            <div> {{product | json}} </div>
+          @for (product of products(); track product.id) {
+            <pre> {{product | json}} </pre>
           }
         </div>
       </div>
