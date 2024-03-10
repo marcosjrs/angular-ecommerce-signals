@@ -1,1 +1,28 @@
-<p>details works!</p>
+<section class="overflow-hidden text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap mx-auto lg:w-4/5">
+      <div class="w-full mt-6 lg:w-1/2 lg:pl-10 lg:py-6 lg:mt-0">
+        <h2 class="text-sm tracking-widest text-gray-500 title-font">Categoría </h2>
+        <h1 class="mb-1 text-3xl font-medium text-gray-900 title-font">Nombre del producto</h1>
+        <div class="flex mb-4">
+          <span class="flex items-center">
+            @for (star of starsArray; track index; let index = $index) {
+             icoStar
+            }
+
+            <span class="ml-3 text-gray-600"> 1 reviews</span>
+          </span>
+        </div>
+        <p class="mt-6 mb-5 leading-relaxed ">Descripción del producto</p>
+
+        <div class="flex">
+          <span class="text-2xl font-bold text-orange-500 ">10€</span>
+          <button (click)="onAddToCart()"
+            class="px-2 py-1 ml-auto text-white bg-orange-500 rounded hover:bg-orange-700">
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
