@@ -3,7 +3,10 @@
 Proyecto con fines educativos, en desarrollo...
 
 [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+
 [Instalación de Tailwind](https://tailwindcss.com/docs/guides/angular)
+
+[Tailblocks: Ejemplos de templates](https://tailblocks.cc/)
 
 
 ```bash
@@ -14,6 +17,7 @@ ng g c features/products/card
 ng g c features/checkout
 ng g environments
 ```
+
 
 
 ## Development server
