@@ -10,14 +10,7 @@ Proyecto con fines educativos, en desarrollo...
 
 [Instalación de ngrx/signals](https://ngrx.io/guide/signals/install)
 
-```bash
-ng g c layout/header
-ng g c features/products
-ng g c features/products/details
-ng g c features/products/card
-ng g c features/checkout
-ng g environments
-```
+
 
 
 
@@ -44,3 +37,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Fuente:  [Curso de Angular completo - Angular 17 e-commerce con Signals de Domini Code](https://www.youtube.com/watch?v=tpS5w5tic_U)
