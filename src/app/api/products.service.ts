@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable, Injector, Signal, inject, runInInjectionContext, signal } from '@angular/core';
-import { environment } from '@envs/environment.development';
+import { Injectable, EnvironmentInjector, Signal, inject, runInInjectionContext, signal } from '@angular/core';
+import { environment } from '@envs/environment';
 import { Product } from '@shared/models/product.interface';
 import { map, tap } from 'rxjs';
 import { toSignal } from '@angular/core/rxjs-interop'
@@ -12,7 +12,7 @@ export class ProductsService {
   products = signal<Product[]>([]);
   private readonly _http = inject(HttpClient);
   private readonly _endPoint = environment.apiURL;
-  private readonly _injector = inject(Injector);
+  private readonly _injector = inject(EnvironmentInjector);
 
   constructor() {
     this.getProducts();
